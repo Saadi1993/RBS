@@ -1,0 +1,40 @@
+/* Minimized header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px; /* Fixed height */
+    padding: 0 20px; /* Reduced padding */
+    background-color: #f5f5f5;
+}
+
+.header-content {
+    width: 100px; /* Smaller logo width */
+}
+
+.header-content img {
+    width: 200px; /* Make sure logo scales down */
+    height: 150px;
+}
+
+nav ul li {
+    display:inline;
+    margin-left: 10px; /* Reduced spacing between links */
+}
+
+nav ul li a {
+    text-shadow: #f5f5f5;
+    font-weight: 100;
+    color: #0f0f0f;
+    font-size: 14px; /* Smaller font size */
+    font-weight: bold; /* Adjust font weight if needed */
+}
+nav ul li a:hover {
+    color: #0fecc7; /* Change the color on hover */
+}
+nav ul li a.active {
+    color: #fff; /* Active link text color */
+    background-color: #08edf5; /* Active link background color */
+    padding: 5px 10px; /* Optional: Add padding for better appearance */
+    border-radius: 5px; /* Optional: Rounded corners for the active link */
+}

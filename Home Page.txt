@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote Bits Technology</title>
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 123, 255, 0.9);
+    padding: 15px 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 12px 24px;
+    background: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #ff9900;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/mnt/data/Remote BITS.png" alt="Company Logo">
+        <h1>Remote Bits Technology</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Welcome to Remote Bits Technology</h2>
+        <p>We specialize in creating innovative and cutting-edge software solutions tailored to your needs. From mobile app development to enterprise solutions, we help businesses succeed with technology.</p>
+    </div>
+    <div class="container" id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>iOS & Android App Development - Custom mobile applications to engage your audience.</li>
+            <li>Web Development & Design - Stunning, responsive websites to grow your business.</li>
+            <li>Oracle OAF Development - Expert enterprise solutions for businesses.</li>
+            <li>Ansys 3D Solutions - Advanced simulation and modeling services.</li>
+        </ul>
+    </div>
+    <div class="container" id="portfolio">
+        <h2>Our Portfolio</h2>
+        <p>Explore our successful projects across various industries. Stay tuned for updates.</p>
+    </div>
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>Remote Bits Technology is a leading software solutions provider with expertise in web, mobile, and enterprise development. Our team of skilled professionals is committed to delivering high-quality, scalable, and user-friendly solutions to businesses worldwide.</p>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Client Testimonials</h2>
+        <div class="testimonial">
+            <p>"Remote Bits Technology delivered an amazing app for our business! Highly recommend!" - John Doe</p>
+        </div>
+        <div class="testimonial">
+            <p>"Professional, reliable, and skilled team. Our web project was completed perfectly!" - Jane Smith</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Remote Bits Technology. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
